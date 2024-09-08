@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <input type="text" id="display" class="display" disabled>
+        <button onclick="clearDisplay()" class="clear" id="c">C</button>
+     <div id="a">
+        <div onclick="appendNumber('7')" id="b">7</div>
+        <div onclick="appendNumber('8')" id="b">8</div>
+        <div onclick="appendNumber('9')" id="b">9</div>
+        <div onclick="setOperator('/')" id="b1">/</div>
+        <div onclick="appendNumber('4')" id="b">4</div>
+        <div onclick="appendNumber('5')" id="b">5</div>
+        <div onclick="appendNumber('6')" id="b">6</div>
+        <div onclick="setOperator('X')" id="b1">X</div>
+        <div onclick="appendNumber('1')" id="b">1</div>
+        <div onclick="appendNumber('2')" id="b">2</div>
+        <div onclick="appendNumber('3')" id="b">3</div>
+        <div onclick="setOperator('-')" id="b1">-</div>
+        <div onclick="appendNumber('0')" id="b">0</div>
+        <div onclick="appendNumber('.')" id="b">.</div>
+        <div onclick="calculate()" id="b1">=</div>
+        <div onclick="setOperator('+')" id="b1">+</div>
+    </div>
+    </div>
+</body>
+<script src="script.js">
+</script>
+</html>
